@@ -1,0 +1,55 @@
+.booking-form {
+    background: #fff;
+    padding: 30px;
+    max-width: 450px;
+    margin: 50px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .booking-form select,
+  .booking-form input,
+  .booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .booking-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #00b894;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #019874;
+  }
+  .vehicle-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

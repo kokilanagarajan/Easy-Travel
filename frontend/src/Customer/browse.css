@@ -1,0 +1,55 @@
+.browse-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.vehicle-list {
+  display: flex;
+  flex-direction: column; /* 👈 stack items vertically */
+  gap: 20px;
+}
+
+.vehicle-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.vehicle-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.vehicle-card h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.vehicle-card p {
+  margin: 4px 0;
+}
+
+.vehicle-card button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}

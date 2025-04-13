@@ -1,0 +1,32 @@
+.admin-page {
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  .request-card {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+  }
+  .vehicle-img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .action-buttons button {
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .action-buttons button:last-child {
+    background: #f44336;
+  }
+  

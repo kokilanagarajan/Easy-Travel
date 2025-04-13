@@ -1,0 +1,52 @@
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('./images/homebg.jpg'); /* Add your own image */
+    background-size: cover;
+    background-size: 100%;
+    background-position: center; 
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #019874;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  

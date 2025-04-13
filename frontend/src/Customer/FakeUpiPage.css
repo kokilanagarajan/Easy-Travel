@@ -1,0 +1,43 @@
+.upi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+  }
+  
+  .upi-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .upi-card h2 {
+    margin-bottom: 20px;
+    color: #075e54;
+  }
+  
+  .upi-card p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .pay-button {
+    margin-top: 20px;
+    background-color: #00c853;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pay-button:hover {
+    background-color: #00b34c;
+  }
+  

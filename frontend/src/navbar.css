@@ -1,0 +1,25 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #1e1e2f;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .header a:hover {
+    color: #00bfff;
+  }
+  

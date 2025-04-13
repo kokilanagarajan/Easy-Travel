@@ -1,0 +1,65 @@
+.vehicle-results {
+  padding: 30px;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.vehicle-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vehicle-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-5px);
+}
+
+.vehicle-card img {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.vehicle-info {
+  flex: 1;
+}
+
+.vehicle-info h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #111;
+}
+
+.vehicle-info p {
+  margin: 5px 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.vehicle-price {
+  text-align: right;
+}
+
+.vehicle-price h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #000;
+}
+
+.vehicle-price p {
+  margin: 4px 0;
+  color: #6c757d;
+  font-size: 13px;
+}

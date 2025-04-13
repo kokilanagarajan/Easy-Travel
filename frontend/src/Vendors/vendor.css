@@ -1,0 +1,104 @@
+.vehicle-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.vehicle-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.vehicle-info img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.vehicle-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vehicle-status {
+  padding: 6px 12px;
+  background-color: #fff3cd;
+  color: #856404;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.remove-btn,
+.review-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+.review-btn {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.review-btn:hover {
+  background-color: #e0a800;
+}
+.rejected-tag {
+  background-color: #ffe0e0;
+  color: #d10000;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.pending-tag {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.approved-tag {
+  background-color: #e0f9e0;
+  color: #2e7d32;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
